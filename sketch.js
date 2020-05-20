@@ -96,28 +96,28 @@ function draw() {
   p8.debug=true;
   p8.setCollider("circle",0,0,15);
   
-  if(isTouching(sun,p1)){
+  if(sun.isTouching(p1)){
     p1.destroy();
   }
-  if(isTouching(sun,p2)){
+  if(sun.isTouching(p2)){
     p2.destroy();
   }
-  if(isTouching(sun,p3)){
+  if(sun.isTouching(p3)){
     p3.destroy();
   }
-  if(isTouching(sun,p4)){
+  if(sun.isTouching(p4)){
     p4.destroy();
   }
-  if(isTouching(sun,p5)){
+  if(sun.isTouching(p5)){
     p5.destroy();
   }
-  if(isTouching(sun,p6)){
+  if(sun.isTouching(p6)){
     p6.destroy();
   }
-  if(isTouching(sun,p7)){
+  if(sun.isTouching(p7)){
     p7.destroy();
   }
-  if(isTouching(sun,p8)){
+  if(sun.isTouching(p8)){
     p8.destroy();
   }
 
