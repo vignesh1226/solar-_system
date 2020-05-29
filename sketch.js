@@ -76,25 +76,25 @@ function draw() {
   }
   
   sun.debug=true;
-  sun.setCollider("circle",0,0,50);
+  sun.setCollider("circle",0,0,75);
  
 
   p1.debug=true;
-  p1.setCollider("circle",0,0,15);
+  p1.setCollider("circle",0,0,35);
   p2.debug=true;
-  p2.setCollider("circle",0,0,15);
+  p2.setCollider("circle",0,0,35);
   p3.debug=true;
-  p3.setCollider("circle",0,0,15);
+  p3.setCollider("circle",0,0,35);
   p4.debug=true;
-  p4.setCollider("circle",0,0,15);
+  p4.setCollider("circle",0,0,35);
   p5.debug=true;
-  p5.setCollider("circle",0,0,15);
+  p5.setCollider("circle",0,0,35);
   p6.debug=true;
-  p6.setCollider("circle",0,0,15);
+  p6.setCollider("circle",0,0,35);
   p7.debug=true;
-  p7.setCollider("circle",0,0,15);
+  p7.setCollider("circle",0,0,35);
   p8.debug=true;
-  p8.setCollider("circle",0,0,15);
+  p8.setCollider("circle",0,0,35);
   
   if(sun.isTouching(p1)){
     p1.destroy();
